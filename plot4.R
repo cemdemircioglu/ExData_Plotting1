@@ -43,7 +43,7 @@ legend('topright', c("Sub_metering_1        ","Sub_metering_2        ","Sub_mete
 plot(myfdata$mydatetime,myfdata$GRP,type="l",ylab='Global Reactive Power (kilowatts)',xlab='datetime')
 
 #Save the plot
-dev.copy(png,'plot3.png',width = 480, height = 480)
+dev.copy(png,'plot4.png',width = 480, height = 480)
 dev.off()
 
 
